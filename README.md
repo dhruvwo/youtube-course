@@ -1,8 +1,27 @@
-# React + Vite
+# Productivity Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We have following list of hooks to improve productivity and optimizing code quality:-
 
-Currently, two official plugins are available:
+### useToggle
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To manage toggle values (We can manage state update/toggle with less code)
+
+### useEventListener
+
+To subscribe window events (We can subscribe any window events with less code)
+
+### useScreenSize
+
+To render component on screen size change (We can manage display grid, set dynamic height/width of image/video, we can manage show more hide etc...)
+
+### useScreenSizeDebounce
+
+To render component AFTER screen size change (We can manage all things described in "useScreenSize" but can reduce rerender by triggering it with some debounce)
+
+### useFetch
+
+To Fetch data from backend with loader, success and error messages managed (This will save some time in the case of multiple API calls)
+
+### useIsVisible
+
+To indicate if element is visible on the screen (Based on this we can manage some animations, video play pause, loading image, some dynamic calculations etc...)
