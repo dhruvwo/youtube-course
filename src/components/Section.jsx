@@ -13,7 +13,13 @@ function Section({ title, children }) {
       }}
     >
       <div>{title}</div>
-      <div>{children}</div>
+      <div
+        style={{
+          flex: 1,
+        }}
+      >
+        {children}
+      </div>
     </div>
   );
 }

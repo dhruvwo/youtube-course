@@ -24,4 +24,4 @@ To Fetch data from backend with loader, success and error messages managed (This
 
 ### useIsVisible
 
-To indicate if element is visible on the screen (Based on this we can manage some animations, video play pause, loading image, some dynamic calculations etc...)
+To indicate if element is visible on the screen (Based on this we can manage some animations, video play pause, loading image only if element is visible, some dynamic calculations etc...)

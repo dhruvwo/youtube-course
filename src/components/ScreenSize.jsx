@@ -1,6 +1,6 @@
 import useWindowSize from "@hooks/useWindowSize";
 
-function FetchData() {
+function ScreenSize() {
   const { width } = useWindowSize();
 
   console.log("width", width);
@@ -11,4 +11,4 @@ function FetchData() {
   );
 }
 
-export default FetchData;
+export default ScreenSize;

@@ -42,7 +42,7 @@ function ListItem({ item }) {
     </div>
   );
 }
-function OnScreenRender() {
+function DynamicHeightVirtualScroll() {
   return (
     <div
       style={{
@@ -56,4 +56,4 @@ function OnScreenRender() {
   );
 }
 
-export default OnScreenRender;
+export default DynamicHeightVirtualScroll;
